@@ -1,8 +1,36 @@
 {
   "sections": {
-    "main": {
-      "type": "test"
+    "hero_banner": {
+      "type": "test",
+      "settings": {
+        "heading": "🚀 自动化建站第一站",
+        "subtext": "这是我们的首屏 Banner，背景用蓝色吸引注意。",
+        "bg_color": "#0055ff",
+        "text_color": "#ffffff"
+      }
+    },
+    "product_intro": {
+      "type": "test",
+      "settings": {
+        "heading": "今日爆款推荐",
+        "subtext": "这个模块可以手动控制，将来用 API 灌注商品 ID。",
+        "bg_color": "#ffffff",
+        "text_color": "#000000"
+      }
+    },
+    "footer_callout": {
+      "type": "test",
+      "settings": {
+        "heading": "立即订阅领优惠券",
+        "subtext": "放在页面底部的促销信息，深色背景显得更稳重。",
+        "bg_color": "#333333",
+        "text_color": "#ffcc00"
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "hero_banner",
+    "product_intro",
+    "footer_callout"
+  ]
 }
