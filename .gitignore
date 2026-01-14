@@ -1,0 +1,24 @@
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
+*.log
+
+# --- Shopify 工具相关 ---
+# 如果你使用 Shopify CLI，会生成这个文件夹
+.shopify/
+# 如果你使用旧版的 Theme Kit，这个文件包含 API 密钥，绝对不能上传
+config.yml
+
+# --- 配置文件 (重点关注) ---
+# settings_data.json 存储的是你在后台“自定义”装修的数据
+# 如果是多人协作，建议忽略它，防止本地配置覆盖线上配置
+# 如果是个人开发作为备份，可以不忽略
+# config/settings_data.json
+
+# --- Node.js/编译工具 (如果你用了 Tailwind, Sass 或 Webpack) ---
+node_modules/
+dist/
+.env
+
+# --- 资源压缩包 ---
+*.zip

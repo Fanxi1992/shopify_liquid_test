@@ -1,0 +1,8 @@
+<div style="background-color: {{ settings.background }}; padding: 20px;">
+  <h2>你好，{{ shop.name }}</h2>
+  <p>这是我的第一个动态模块</p>
+  
+  {% if request.page_type == 'index' %}
+    <p>我现在是在首页看这个模块</p>
+  {% endif %}
+</div>
