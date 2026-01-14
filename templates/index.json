@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_banner": {
@@ -9,6 +18,15 @@
         "text_color": "#ffffff"
       }
     },
+    "footer_callout": {
+      "type": "test",
+      "settings": {
+        "heading": "立即订阅领优惠券",
+        "subtext": "放在页面底部的促销信息，深色背景显得更稳重。",
+        "bg_color": "#333333",
+        "text_color": "#ffcc00"
+      }
+    },
     "product_intro": {
       "type": "test",
       "settings": {
@@ -18,19 +36,32 @@
         "text_color": "#000000"
       }
     },
-    "footer_callout": {
+    "test_wkwNwB": {
       "type": "test",
+      "name": "新增一个测试模块",
       "settings": {
-        "heading": "立即订阅领优惠券",
-        "subtext": "放在页面底部的促销信息，深色背景显得更稳重。",
-        "bg_color": "#333333",
-        "text_color": "#ffcc00"
+        "heading": "懂的都懂",
+        "subtext": "11",
+        "bg_color": "#ac3f3f",
+        "text_color": "#333333"
+      }
+    },
+    "test_MqEMNX": {
+      "type": "test",
+      "name": "新增一个测试模块",
+      "settings": {
+        "heading": "我就不懂",
+        "subtext": "222",
+        "bg_color": "#e0e0e0",
+        "text_color": "#62a74c"
       }
     }
   },
   "order": [
     "hero_banner",
+    "footer_callout",
     "product_intro",
-    "footer_callout"
+    "test_wkwNwB",
+    "test_MqEMNX"
   ]
 }
